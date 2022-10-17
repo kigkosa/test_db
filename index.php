@@ -12,8 +12,6 @@ if (isset($_POST['name_s']) ){
     
 }
 
-
-
 $sql = "SELECT * FROM user";
 $result = $conn->query($sql);
 
