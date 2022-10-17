@@ -21,7 +21,7 @@ $result -> free_result();
 $conn->close();
 ?>
 
-<form action="/test_db" method="post">
+<form action="" method="post">
     <input type="text" name="name_s">
     <input type="submit" value="บันทึก">
 </form>
