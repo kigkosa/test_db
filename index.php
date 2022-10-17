@@ -17,8 +17,8 @@ $result = $conn->query($sql);
 while($row = $result->fetch_assoc()){
     printf("<br>%s %s",$row['id'],$row["name"]);
 }
-
-
+$result -> free_result();
+$conn->close();
 ?>
 
 <form action="/test_db" method="post">
