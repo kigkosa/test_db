@@ -1,12 +1,5 @@
 <?php
- $hostName = "localhost";
- $userName = "root";
- $password = "";
- $dbName = "db_test";
- $conn= new mysqli($hostName,$userName,$password,$dbName);
- if(!$conn){
-    echo "not connected";
- }
+require('condb.php');
 
 $name = "book123";
 $sql2 = "INSERT INTO user (name) VALUES (?)";
