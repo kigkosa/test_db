@@ -1,6 +1,7 @@
 <?php
 require('condb.php');
 
+// เพิ่มข้อมูล
 if (isset($_POST['name_s'])){
     $name = $_POST['name_s'];
     $sql2 = "INSERT INTO user (name) VALUES (?)";
@@ -9,7 +10,7 @@ if (isset($_POST['name_s'])){
     $sm->execute();    
 }
 
-
+// ส่งไปกลับไปหน้า ./
 header("Location: ./");
 
 ?>

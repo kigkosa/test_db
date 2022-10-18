@@ -1,4 +1,5 @@
 <?php 
+// เชือมดาต้าเบส
  $hostName = "localhost";
  $userName = "root";
  $password = "";
